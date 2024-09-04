@@ -1,0 +1,15 @@
+<section class="category">
+    <form (ngSubmit)="filterCategories()" #searchForm="ngForm">
+        <div class="form-group">
+            <label for="searchTerm" class="form-label">Rechercher une catégorie</label>
+            <input id="searchTerm" name="searchTerm" [(ngModel)]="searchTerm" #search="ngModel" class="form-input"
+                placeholder="Entrez le nom de la catégorie" />
+            <button type="submit" class="form-button">Filtrer</button>
+            <button type="button" (click)="resetFilter()" class="form-button form-button-reset">Réinitialiser</button>
+        </div>
+        <div class="category-card" *ngFor="let category of filteredCategories"
+            (click)="selectCategory(category.categorieId)">
+            <h3>{{ category.name }}</h3>
+        </div>
+    </form>
+</section>

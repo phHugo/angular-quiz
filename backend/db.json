@@ -1,0 +1,278 @@
+{
+  "categories": [
+    {
+      "categorieId": 1,
+      "name": "Angular"
+    },
+    {
+      "categorieId": 2,
+      "name": "Node.js"
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "questionLabel": "What is a component in Angular?",
+      "categorieId": 1
+    },
+    {
+      "id": 2,
+      "questionLabel": "Explain the purpose of the NgModule in Angular.",
+      "categorieId": 1
+    },
+    {
+      "id": 3,
+      "questionLabel": "How do you create a new Angular application?",
+      "categorieId": 1
+    },
+    {
+      "id": 4,
+      "questionLabel": "What is data binding in Angular, and what are the different types of data binding?",
+      "categorieId": 1
+    },
+    {
+      "id": 5,
+      "questionLabel": "Explain the difference between {{}} (interpolation) and [property] (property binding) in Angular templates.",
+      "categorieId": 1
+    },
+    {
+      "id": 6,
+      "questionLabel": "What is Node.js, and how does it work?",
+      "categorieId": 2
+    },
+    {
+      "id": 7,
+      "questionLabel": "How do you handle asynchronous operations in Node.js?",
+      "categorieId": 2
+    },
+    {
+      "id": 8,
+      "questionLabel": "What are Node.js modules, and how do you use them?",
+      "categorieId": 2
+    },
+    {
+      "id": 9,
+      "questionLabel": "Explain the purpose of the package.json file in a Node.js project.",
+      "categorieId": 2
+    },
+    {
+      "id": 10,
+      "questionLabel": "How do you manage dependencies in a Node.js application?",
+      "categorieId": 2
+    }
+  ],
+  "answers": [
+    {
+      "questionId": 1,
+      "answerLabel": "A reusable building block for the user interface",
+      "isCorrect": true
+    },
+    {
+      "questionId": 1,
+      "answerLabel": "A style in Angular",
+      "isCorrect": false
+    },
+    {
+      "questionId": 1,
+      "answerLabel": "A service for handling HTTP requests",
+      "isCorrect": false
+    },
+    {
+      "questionId": 1,
+      "answerLabel": "A routing configuration",
+      "isCorrect": false
+    },
+    {
+      "questionId": 2,
+      "answerLabel": "NgModule is used to declare and configure modules in Angular applications.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 2,
+      "answerLabel": "NgModule is a component in Angular.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 2,
+      "answerLabel": "NgModule is used for data binding in Angular.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 2,
+      "answerLabel": "NgModule is a directive in Angular.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 3,
+      "answerLabel": "You can create a new Angular application using the Angular CLI by running 'ng new app-name'.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 3,
+      "answerLabel": "You can create a new Angular application by writing HTML and CSS files.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 3,
+      "answerLabel": "You can create a new Angular application using pure JavaScript.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 3,
+      "answerLabel": "You can create a new Angular application using Python.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 4,
+      "answerLabel": "Data binding in Angular is a mechanism for synchronizing data between the component and the view.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 4,
+      "answerLabel": "Data binding in Angular is used for creating components.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 4,
+      "answerLabel": "Data binding in Angular is a routing feature.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 4,
+      "answerLabel": "Data binding in Angular is only available for services.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 5,
+      "answerLabel": "{{}} (interpolation) is used for displaying dynamic data in the template.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 5,
+      "answerLabel": "[property] (property binding) is used for displaying dynamic data in the template.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 5,
+      "answerLabel": "{{}} (interpolation) is used for creating CSS styles.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 5,
+      "answerLabel": "[property] (property binding) is used for creating services.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 6,
+      "answerLabel": "Node.js is a JavaScript runtime built on Chrome's V8 engine that allows server-side scripting.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 6,
+      "answerLabel": "Node.js is a frontend framework for building web applications.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 6,
+      "answerLabel": "Node.js is a CSS preprocessor.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 6,
+      "answerLabel": "Node.js is a database management system.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 7,
+      "answerLabel": "Asynchronous operations in Node.js are handled using callbacks, promises, or async/await.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 7,
+      "answerLabel": "Asynchronous operations in Node.js are handled using synchronous blocking code.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 7,
+      "answerLabel": "Asynchronous operations in Node.js are only handled using event emitters.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 7,
+      "answerLabel": "Asynchronous operations in Node.js cannot be handled natively.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 8,
+      "answerLabel": "Node.js modules are reusable code packages that can be included in an application using require() or import.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 8,
+      "answerLabel": "Node.js modules are built-in tools for handling HTTP requests.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 8,
+      "answerLabel": "Node.js modules are only available in the npm registry.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 8,
+      "answerLabel": "Node.js modules are used for configuring environment variables.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 9,
+      "answerLabel": "The package.json file is used to manage the project’s dependencies and metadata like the project name, version, and scripts.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 9,
+      "answerLabel": "The package.json file is used to store environment variables.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 9,
+      "answerLabel": "The package.json file is used to compile JavaScript code.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 9,
+      "answerLabel": "The package.json file is a configuration file for the Node.js server.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 10,
+      "answerLabel": "Dependencies in a Node.js application are managed using npm or yarn to install, update, and remove packages.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 10,
+      "answerLabel": "Dependencies in a Node.js application are managed manually by downloading and linking files.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 10,
+      "answerLabel": "Dependencies in a Node.js application are automatically included by the Node.js runtime.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 10,
+      "answerLabel": "Dependencies in a Node.js application are managed using environment variables.",
+      "isCorrect": false
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "admin"
+    },
+    {
+      "id": 2,
+      "username": "user",
+      "password": "user"
+    }
+  ]
+}
