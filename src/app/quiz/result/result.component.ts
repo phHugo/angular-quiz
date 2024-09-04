@@ -13,7 +13,7 @@ export class ResultComponent implements OnInit {
   scoreTotal = this.quizService.quizContent.length;
   playerName = this.quizService.playerName;
 
-  constructor(private quizService: QuizService, private router: Router, private categoryService: CategoryService) { }
+  constructor(private quizService: QuizService, private router: Router) { }
 
   ngOnInit(): void {
     this.quizService.checkAnswers();
@@ -23,7 +23,6 @@ export class ResultComponent implements OnInit {
   goToHome() {
     this.router.navigate(['/']);
     this.quizService.resetQuiz();
-    this.categoryService.resetCategories()
   }
 
   getGifUrl() {

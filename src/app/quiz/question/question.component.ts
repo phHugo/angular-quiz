@@ -14,7 +14,7 @@ export class QuestionComponent implements OnInit {
   currentDate = new Date();
   @Input() categoryId: number = 0;
 
-  constructor(private route: ActivatedRoute, private quizService: QuizService, private categoryService: CategoryService) { }
+  constructor(private route: ActivatedRoute, private quizService: QuizService) { }
 
   ngOnInit(): void {
     console.log(this.categoryId);
